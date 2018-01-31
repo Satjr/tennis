@@ -12,7 +12,7 @@ import Match from './Match';
        sc2: document.getElementById("set-score-2"),
        info: document.getElementById("info"),
        buttons: document.getElementsByTagName("BUTTON"),
-       game: document.getElementsById('next-game')
+       game: document.getElementById('next-game')
     }
 
     const match = new Match(p1, p2, $DOMConf);
